@@ -132,7 +132,7 @@ int main(){
     int px = 1;
 
     for (a=0;a< map().size;a++){
-        for(b=0;b<map(a).size;b++){
+        for(b=0;b<map[a].size;b++){
             if(map[a][b]=='p');
                 py = a;
                 px = b;
@@ -140,6 +140,25 @@ int main(){
         }
     }
 }
+while (true)
+    {
+        clear();
+        for (a=0;a<map()/size;a++;){
+            for (b = 0; b < map[a].size;b++){
+                mvaddch(a,b,map[a][b];)
+            }
+        }
+
+        mvaddch(py,px,'P');
+        refresh();
+
+        int tombol = getch();
+        if (tombol == 'q' || 'Q')
+            break;
+                    
+        
+        
+        
             
     
 
