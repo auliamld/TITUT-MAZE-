@@ -128,6 +128,20 @@ int main(){
         map = LABIRIN3;
         break;
     }
+    int py = 1;
+    int px = 1;
+
+    for (a=0;a< map().size;a++){
+        for(b=0;b<map(a).size;b++){
+            if(map[a][b]=='p');
+                py = a;
+                px = b;
+            map[a][b]=' ';
+        }
+    }
+}
+            
+    
 
 
     
