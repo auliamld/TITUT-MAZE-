@@ -118,6 +118,8 @@ char getIsiLabirin(int level, int y, int x) {
         }
     }
 }
+
+
 while (true)
     {
         clear();
