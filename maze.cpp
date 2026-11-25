@@ -102,56 +102,8 @@ char getIsiLabirin(int level, int y, int x) {
     if (level == 1) {
         return easy[y][x];
     }
-<<<<<<< HEAD
     else if (level == 2) {
         return normal[y][x];
-=======
-    int py = 1;
-    int px = 1;
-
-    for (a=0;a< map().size;a++){
-        for(b=0;b<map[a].size;b++){
-            if(map[a][b]=='p');
-                py = a;
-                px = b;
-            map[a][b]=' ';
-        }
-    }
-}
-
-
-while (true)
-    {
-        clear();
-        for (a=0;a<map()/size;a++;){
-            for (b = 0; b < map[a].size;b++){
-                mvaddch(a,b,map[a][b];)
-            }
-        }
-
-        mvaddch(py,px,'P');
-        refresh();
-
-        int tombol = getch();
-        if (tombol == 'q' || 'Q')
-            break;
-                    
-        
-        
-        
-            
-    
-
-
-    
-
-    clear();
-    
-    for (int a = 0; a<map.size(); a++) {
-        for (int b = 0; b<map[a].size(); b++) {
-            mvaddch(a, b, map[a][b]);
-        }
->>>>>>> c9a7fc705b63aae8c0a110664a1ae66517fd15a5
     }
     else {
         return hard[y][x];
@@ -164,12 +116,5 @@ int getWaktuLevel(int level) {
     if (level == 1) return 80;
     if (level == 2) return 60;
 
-<<<<<<< HEAD
     return 50;
 }
-=======
-    endwin();
-
-    return 0;
-}
->>>>>>> c9a7fc705b63aae8c0a110664a1ae66517fd15a5
