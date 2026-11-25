@@ -84,6 +84,7 @@ int getTinggi(int level) {
     return T3;
 }
 
+
 // Mengambil lebar labirin berdasarkan level
 int getLebar(int level) {
     if (level == 1) return L1;
