@@ -118,9 +118,9 @@ int getWaktuLevel(int level) {
         return 80;
     }
     else if (level == 2) {
-        return 60;
+        return 70;
     }
     else {
-        return 50;
+        return 60;
     }
 }
