@@ -113,8 +113,13 @@ char getIsiLabirin(int level, int y, int x) {
 // Mengatur waktu berdasarkan level
 int getWaktuLevel(int level) {
 
-    if (level == 1) return 80;
-    if (level == 2) return 60;
-
-    return 50;
+     if (level == 1) {
+        return 80;
+    }
+    else if (level == 2) {
+        return 60;
+    }
+    else {
+        return 50;
+    }
 }
