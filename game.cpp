@@ -1,7 +1,6 @@
 // Bagian Nadine game system
 
 #include <ncurses.h> 
-
 #include "game.h"    
 #include "maze.h"    
 #include "player.h"  
