@@ -1,5 +1,5 @@
-#ifndef MAZE_h
-#define MAZE_h
+#ifndef maze_h
+#define maze_h
 
 const int T1 = 15;
 const int L1 = 51;
