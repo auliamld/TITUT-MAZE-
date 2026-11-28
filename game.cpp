@@ -1,4 +1,4 @@
-// Bagian Nadine game system
+// Bagian Nadine Game System
 
 #include <ncurses.h> 
 #include "game.h"    
