@@ -1,4 +1,4 @@
-// Bagian Nadine game system
+// Bagian Nadine Imup Game System
 
 #include <ncurses.h> 
 
@@ -7,7 +7,7 @@
 #include "player.h"  
 #include "display.h" 
 
-// Fungsi untuk menjalankan game sesuai level
+// Fungsi untuk menjalankan game sesuai levelnya
 void jalankanGame(int level) {
 
     Player pemain; // Membuat objek pemain
